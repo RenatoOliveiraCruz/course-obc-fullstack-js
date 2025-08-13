@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>Inputs do HTML</title>
+  </head>
+  <body style="font-family: 'Times New Roman', Times, serif">
+    <h1>Inputs do HTML</h1>
+
+    <form>
+      <!-- Campo de Texto -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required / placeholder="Ex.: Kailany Mikaela" >
+      <br /><br />
+
+      <!-- Campo de Email -->
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="email" required />
+      <br /><br />
+
+      <!-- Campo de Senha -->
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required />
+      <br /><br />
+
+      <!-- Campo de Seleção Radio -->
+      <label>Gênero:</label>
+      <br />
+      <input type="radio" name="genero" id="masculino" value="m" />
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="genero" id="feminino" value="f" />
+      <label for="feminino">Feminino</label>
+      <br /><br />
+
+      <!-- Campo de Seleção Option -->
+      <label for="situacao">Situação Atual:</label>
+      <select name="situacao" id="situacao">
+        <option value="" disabled>Selecione uma das opções...</option>
+        <option value="estudante">Estudando para me tornar um programador</option>
+        <option value="estagiario">Atuando como estagiário/trainee</option>
+        <option value="junior">Atuando como desenvolvedor júnior</option>
+        <option value="pleno">Atuando como desenvolvedor pleno</option>
+        <option value="senior">Atuando como desenvolvedor sênior</option>
+      </select>
+
+      <br /><br />
+
+      <!-- Campo de Múltipla -->
+      <label>Interesses:</label>
+      <br />
+      <input type="checkbox" name="interesses" id="backend" value="backend" />
+      <label for="backend">Back-End</label>
+
+      <input type="checkbox" name="interesses" id="frontend" value="frontend" />
+      <label for="frontend">Front-End</label>
+      <input type="checkbox" name="interesses" id="fullstack" value="fullstack"/>
+      <label for="fullstack">Full-Stack</label>
+      <input type="checkbox" name="interesses" id="mobile" value="mobile" />
+      <label for="mobile">Mobile</label>
+      <br /><br />
+
+      <!-- Campo de Data -->
+      <label for="dataDeNascimento">Data de Nascimento:</label>
+      <input type="date" name="nascimento" id="dataDeNascimento" />
+      <br /><br />
+
+      <!-- Campo de Arquivo (uploads)-->
+      <label for="fotoDePerfil">Foto de Perfil:</label>
+      <input type="file" name="avatar" id="fotoDePerfil" />
+      <br /><br />
+
+      <!-- Campo de Área de Texto de Múltiplas Linhas-->
+      <label for="sobre">Sobre Mim:</label>
+      <br>
+      <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Fale um pouco sobre você..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
