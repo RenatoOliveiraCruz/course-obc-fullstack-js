@@ -12,4 +12,9 @@ h1 {
 } 
 h2 {
     color: #ff8000ee;
-}   
+}  
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
