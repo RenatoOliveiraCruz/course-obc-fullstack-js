@@ -1,0 +1,51 @@
+        /* 1. DEFINIÇÃO DAS VARIÁVEIS (Escopo Global) */
+        :root {
+            --bg-body: #f4f4f9;
+            --cor-primaria: #4a90e2;
+            --cor-secundaria: #357abd;
+            --cor-texto: #333;
+            --branco: #ffffff;
+            --raio-borda: 8px;
+            --espacamento: 20px;
+            --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 2. APLICAÇÃO DAS VARIÁVEIS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg-body);
+            color: var(--cor-texto);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: var(--branco);
+            padding: var(--espacamento);
+            border-radius: var(--raio-borda);
+            box-shadow: var(--sombra);
+            max-width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            color: var(--cor-primaria);
+            margin-top: 0;
+        }
+
+        .botao {
+            display: inline-block;
+            background-color: var(--cor-primaria);
+            color: var(--branco);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .botao:hover {
+            background-color: var(--cor-secundaria); /* Uso de outra variável no hover */
+        }
