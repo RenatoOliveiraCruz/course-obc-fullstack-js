@@ -1,0 +1,8 @@
+.circle-loader {
+  width: 100px; height: 100px;
+  border: 10px solid rgba(0,0,0,0.1);
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
