@@ -1,18 +1,20 @@
 
 ---
 
-# ✅ README — **course-obc-fullstack-js (OneBitCode)**
+# ✅ README — *course-obc-fullstack-js (OneBitCode)*
 
-👉 Aqui o foco é **estudo guiado**, não “projeto autoral”.  
+👉 Meu o foco aqui é estudo guiado, não “projeto autoral”.  
 
 ### 📄 `README.md` 
 
 ```md
 # 📘 Estudos Full Stack — OneBitCode
 
-Repositório dedicado aos **estudos práticos e exercícios** realizados durante o curso **Full Stack JavaScript** da **OneBitCode**.
+Repositório dedicado aos estudos práticos e exercícios realizados durante o curso
+Full Stack JavaScript da OneBitCode.
 
-O objetivo deste repositório é consolidar fundamentos de **desenvolvimento web**, versionamento e organização de código.
+O objetivo deste repositório é consolidar fundamentos de desenvolvimento web, 
+versionamento e organização de código.
 
 ---
 
@@ -32,7 +34,8 @@ O objetivo deste repositório é consolidar fundamentos de **desenvolvimento web
 ---
 
 ## 🎯 Objetivo
-Aplicar na prática os conceitos aprendidos no curso, servindo como base para evolução futura em:
+Aplicar na prática os conceitos aprendidos no curso, servindo como base para evolução
+futura em:
 - React.js
 - Next.js
 - Integração com APIs Backend
@@ -40,7 +43,8 @@ Aplicar na prática os conceitos aprendidos no curso, servindo como base para ev
 ---
 
 ## ⚠️ Observação
-Este repositório contém **códigos de estudo e exercícios**, seguindo a metodologia proposta pela OneBitCode.
+Este repositório contém códigos de estudo e exercícios, seguindo a metodologia 
+proposta pela OneBitCode.
 
 ---
 
