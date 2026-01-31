@@ -1,7 +1,7 @@
 
 ---
 
-# ✅ README — *course-obc-fullstack-js (OneBitCode)*
+# course-obc-fullstack-js *OneBitCode*
 
 👉 Meu o foco aqui é estudo guiado, não “projeto autoral”.  
 
