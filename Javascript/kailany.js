@@ -4,3 +4,5 @@ let i = 1;
 let over = true;
 let now = DataTransfer;
 let int = 10;
+var boom = 1.9;
+ 
