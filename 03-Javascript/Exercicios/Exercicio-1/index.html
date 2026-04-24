@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        let firstName = prompt("What's your first name?");
+        let lastName = prompt("What's your last name?");
+        let area = prompt("What's your area of expertise?");
+        let birthYear = prompt("What's your birth year?");
+        let currentYear = new Date().getFullYear();
+        let age = currentYear - birthYear;
+        alert("Your name is " + firstName + " " + lastName + ", you are " + age + " years old and your area of expertise is " + area + ".");
+    </script>   
 </body>
 </html>
