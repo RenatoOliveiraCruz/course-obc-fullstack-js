@@ -19,7 +19,7 @@ let def = prompt("Digite o  da defesa");
 if (atk > def && !shield) {
     alert(atk - def + " de dano! causado" + atacante + " tem a vantagem!");
 } else if (def > atk && shield) {
-    alert(atk - def / 2 + " de dano causado! " + defensor + " conseguiu se defender com o escudo!");
+    alert((atk - def) / 2 + " de dano causado! " + defensor + " conseguiu se defender com o escudo!");
 }  else if (atk < def){
     alert(atacante + " não causou dano algum, pois o " + defensor + " esta bem protegido!");
 };
