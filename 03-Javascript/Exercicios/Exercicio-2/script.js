@@ -17,7 +17,7 @@ let atk = prompt("Digite o poder do ataque");
 let def = prompt("Digite o  da defesa");
 
 if (atk > def && !shield) {
-    alert(atk - def + " de dano! causado" + atacante + " tem a vantagem!");
+    alert(atk - def + " de dano! " + atacante + " vence o combate!");
 } else if (def > atk && shield) {
     alert((atk - def) / 2 + " de dano causado! " + defensor + " conseguiu se defender com o escudo!");
 }  else if (atk < def){
