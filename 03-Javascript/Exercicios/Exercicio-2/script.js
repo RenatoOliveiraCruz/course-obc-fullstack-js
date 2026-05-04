@@ -13,13 +13,13 @@ if (motocyclicleSpeed > carSpeed) {
 let atacante = prompt("Digite o nome do atacante");
 let defensor = prompt("Digite o nome do defensor");
 let shield = confirm("O defensor tem escudo? (sim/não)");
-let atk = prompt("Digite o poder do ataque");
-let def = prompt("Digite o  da defesa");
+let atk = Number(prompt("Digite o poder do ataque"));
+let def = Number(prompt("Digite o poder da defesa"));
 
 if (atk > def && !shield) {
     alert(atk - def + " de dano! " + atacante + " vence o combate!");
-} else if (def > atk && shield) {
+} else if (atk > def && shield) {
     alert((atk - def) / 2 + " de dano causado! " + defensor + " conseguiu se defender com o escudo!");
-}  else if (atk < def){
-    alert(atacante + " não causou dano algum, pois o " + defensor + " esta bem protegido!");
-};
+} else if (atk <= def) {
+    alert(atacante + " não causou dano algum, pois o " + defensor + " está bem protegido!");
+}
