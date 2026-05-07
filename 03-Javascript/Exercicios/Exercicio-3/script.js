@@ -1,4 +1,13 @@
-let valorMetro = parseFloat(prompt("Digite o valor em metro:"));
+let valorMetro;
+
+do {
+    valorMetro = parseFloat(prompt("Digite o valor em metro:"));
+    
+    if (isNaN(valorMetro)) {
+        alert("Valor inválido! Por favor, digite um número.");
+    }
+} while (isNaN(valorMetro));
+
 const conversao = parseInt(prompt("Escolha a unidade de medida para conversão:\n\n1 - Milímetros\n2 - Centímetros\n3 - Decímetros\n4 - Decâmetros\n5 - Hectômetros\n6 - Quilômetros"));
 
 switch (conversao) {
