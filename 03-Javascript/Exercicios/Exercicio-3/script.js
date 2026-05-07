@@ -1,6 +1,6 @@
 let valorMetro = parseFloat(prompt("Digite o valor em metro:"));
 
-switch (true) {
+switch (valorMetro) {
     case 1: 
         alert("O valor em milímetros é: " + valorMetro * 1000 + " mm");
         break;
