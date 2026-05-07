@@ -1,0 +1,1 @@
+let valorMetro = parseFloat(prompt("Digite o valor em metro:"));
