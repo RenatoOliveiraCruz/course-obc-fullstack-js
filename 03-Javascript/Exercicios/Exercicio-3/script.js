@@ -1,5 +1,9 @@
-let valorMetro;
+let reiniciar;
 
+do {
+    reiniciar = false;
+
+    let valorMetro;
 do {
     valorMetro = parseFloat(prompt("Digite o valor em metro:"));
     
@@ -30,5 +34,7 @@ switch (conversao) {
         alert("O valor em quilômetros é: " + valorMetro / 1000 + " km");
         break;
     default:
-        alert("Opção inválida!");
-}
+        alert("Opção inválida! Tente novamente.");
+        reiniciar = true;
+    }
+} while (reiniciar);
