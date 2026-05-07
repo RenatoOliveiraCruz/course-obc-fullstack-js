@@ -3,7 +3,7 @@ const conversao = parseInt(prompt("Escolha a unidade de medida para conversão:\
 
 if (isNaN(valorMetro)) {
     alert("Valor inválido! Por favor, digite um número.");
-    return valorMetro;
+    return (valorMetro);
 } else {
 switch (conversao) {
     case 1: 
