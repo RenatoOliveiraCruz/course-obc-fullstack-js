@@ -16,4 +16,3 @@ if (cidadesVisitadas > 0) {
  } else {
         alert("O turista " + turistName + " não visitou mais nenhuma outra cidade.");
  };
- break;
