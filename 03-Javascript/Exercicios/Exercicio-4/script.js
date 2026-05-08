@@ -5,7 +5,7 @@ let pergunta = prompt("O turista " + turistName + " visitou alguma cidade? (Sim/
 
 while (pergunta === "sim") {
     let cidade = prompt("Digite o nome da cidade visitada:");
-    nomesCidades += cidade + ", ";  
+    nomesCidades += cidade + "\n";  
     cidadesVisitadas++;
     pergunta = prompt("O turista visitou outra cidade? (Sim/Não)").toLowerCase();
 } 
