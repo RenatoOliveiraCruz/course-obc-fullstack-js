@@ -12,7 +12,7 @@ while (pergunta === "sim") {
 
 if (cidadesVisitadas > 0) { 
         alert("O turista " + turistName + " visitou " + cidadesVisitadas + " cidade(s).");
-        alert("Todas as cidades visitadas: " + nomesCidades);
+        alert("Todas as cidades visitadas: \n" + nomesCidades);
  } else {
         alert("O turista " + turistName + " não visitou mais nenhuma outra cidade.");
  };
