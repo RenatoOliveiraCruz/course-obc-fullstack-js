@@ -1,4 +1,4 @@
-let menu = Number;
+let menu;
 
 do {
     menu = parseFloat(prompt("Escolha uma opção:\n1 - Iniciar Jogo\n2 - Carregar Jogo\n3 - Configurações\n4 - Créditos\n5 - Sair"));
