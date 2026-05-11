@@ -11,10 +11,11 @@ do {
             let resultado = numero * i;
             tabuada += numero + " x " + i + " = " + resultado + "\n";
             alert(numero + " x " + i + " = " + resultado);
-            alert("Tabuada completa! A lista de todos os resultados é:\n\n " + numero + " X " + i + " = " + resultado);
         }; 
+        alert("Tabuada completa! A lista de todos os resultados é:\n\n " + numero + " X " + i + " = " + resultado);
         numero =+ parseFloat(prompt("Digite um outro número para ver sua tabuada (1-20):"));
             break;
+            
         case "no":
             alert("Você optou por não entrar na sala.");
             break;
