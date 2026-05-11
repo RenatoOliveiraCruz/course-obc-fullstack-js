@@ -1,5 +1,5 @@
 let question;
-let sum;
+let sum = 0;
 do {
     question = prompt("Deseja entrar na sala de multiplicação? (yes/no)");
     switch (question.toLowerCase()) {
