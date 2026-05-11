@@ -1,5 +1,5 @@
 let question;
-let sum = 0;
+
 do {
     question = prompt("Deseja entrar na sala de multiplicação? (yes/no)");
     switch (question.toLowerCase()) {
@@ -13,6 +13,7 @@ do {
             alert(numero + " x " + i + " = " + resultado);
             alert("Tabuada completa! A lista de todos os resultados é:\n\n " + numero + " X " + i + " = " + resultado);
         }; 
+        numero =+ parseFloat(prompt("Digite um outro número para ver sua tabuada (1-20):"));
             break;
         case "no":
             alert("Você optou por não entrar na sala.");
