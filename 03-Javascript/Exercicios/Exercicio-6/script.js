@@ -9,9 +9,9 @@ do {
 
         for (let i = 1; i <= 20; i++) {
             let resultado = numero * i;
-            sum += resultado;
+            tabuada += numero + " x " + i + " = " + resultado + "\n";
             alert(numero + " x " + i + " = " + resultado);
-            alert("Soma acumulada de todos os resultados : " + sum);
+            alert("Tabuada completa! A lista de todos os resultados é:\n\n " + numero + " X " + i + " = " + resultado);
         }; 
             break;
         case "no":
