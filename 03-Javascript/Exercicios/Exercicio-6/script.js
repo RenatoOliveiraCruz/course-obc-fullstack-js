@@ -36,6 +36,11 @@ do {
 
 const word = prompt("Digite uma palavra para verificar se é um palíndromo:");
 
+/*let wordMirror = "";
+    for (let i; i < word.length - 1; i--) {
+    wordMirror += word[i];
+    };*/
+
 const reversedWord = word.split("").reverse().join("");
 if (word.toLowerCase() === reversedWord.toLowerCase()) {
     alert("A palavra '" + word + "' é um palíndromo!");
