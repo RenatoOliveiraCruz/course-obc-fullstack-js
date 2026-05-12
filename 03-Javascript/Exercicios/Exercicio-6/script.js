@@ -1,3 +1,5 @@
+// Exercício: Sala de Multiplicação
+
 let question;
 
 do {
@@ -28,3 +30,15 @@ do {
             alert("Resposta inválida, por favor responda com 'yes' ou 'no'.");
     }
 } while (question.toLowerCase() !== "no");
+
+
+// Exercício: Procurando Palíndro
+
+const word = prompt("Digite uma palavra para verificar se é um palíndromo:");
+
+const reversedWord = word.split("").reverse().join("");
+if (word.toLowerCase() === reversedWord.toLowerCase()) {
+    alert("A palavra '" + word + "' é um palíndromo!");
+} else {
+    alert("A palavra '" + word + "' não é um palíndromo.");
+};
