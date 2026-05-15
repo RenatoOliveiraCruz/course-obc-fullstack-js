@@ -47,3 +47,7 @@ console.log(indexOfApu);
 const slicedArray = arr.slice(0, 4);
 console.log(arr);
 console.log(slicedArray);
+
+let arr = [1, 2, 3, 6, 7, 9, 0];
+let sliceElement = arr.slice(2, 6);
+console.log(sliceElement); // Output: [3,6,7,9]
