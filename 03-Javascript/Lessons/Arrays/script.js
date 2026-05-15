@@ -1,5 +1,8 @@
 let array = [1, 4, 6, 2];
-alert(array);
+console.log(array);
 
-let array2 = new Array(1, 4, 6, 2);
-alert(array2);
+let array2 = array;
+
+array2[0] = 5;
+console.log(array);
+console.log(array2);
