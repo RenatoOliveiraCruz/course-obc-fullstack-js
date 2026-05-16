@@ -2,10 +2,18 @@ let fila;
 let pacientes = [];
 
 do {
+  let listaPacientes = "";
+
+  // ITERAÇÃO DO ARRAY PARA EXIBIR A LISTA DE PACIENTES
+  for (let i = 0; i < pacientes.length; i++) {
+    listaPacientes += `${i + 1}º - ${pacientes[i]}\n`;
+  }
+
   fila = parseInt(
     prompt(
-      "Bem vindo a fila do consultório, lista de espera:\n " +
-        pacientes.join("\n") +
+      "Bem vindo a fila do consultório\n" +
+        "Lista de espera:\n " +
+        (listaPacientes || "Nenhum paciente na fila\n") +
         "\n\nDigite uma opção para prosseguir: \n" +
         "1 - Novo paciente \n" +
         "2 - Consultar paciente \n" +
@@ -16,11 +24,7 @@ do {
   switch (fila) {
     case 1:
       let novoPaciente = prompt("Digite o nome do paciente:");
-
-      for (let i = pacientes.length; i <= pacientes.length; i++) {
-        pacientes.push(novoPaciente);
-      }
-      alert("Paciente adicionado à fila: " + "º - " + novoPaciente);
+      alert("Paciente adicionado à fila: " + novoPaciente);
       break;
 
     case 2:
@@ -31,9 +35,11 @@ do {
         alert("Não há pacientes na fila para consultar.");
       }
       break;
+
     case 3:
       alert("Encerrando o sistema. Até mais!");
       break;
+
     default:
       alert("Opção inválida. Por favor, escolha uma opção válida.");
   }
