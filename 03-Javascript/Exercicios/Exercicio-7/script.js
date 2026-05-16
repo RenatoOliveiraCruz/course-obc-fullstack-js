@@ -18,7 +18,7 @@ do {
       let novoPaciente = prompt("Digite o nome do paciente:");
 
       for (let i = 1; i < pacientes.length; i++) {
-        pacientes.push(i + "º - " + novoPaciente);
+        pacientes.push(novoPaciente);
       }
       alert("Paciente adicionado à fila: " + "º - " + novoPaciente);
       break;
