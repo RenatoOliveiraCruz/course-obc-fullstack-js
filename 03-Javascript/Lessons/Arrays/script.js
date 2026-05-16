@@ -53,3 +53,15 @@ let sliceElement = arrs.slice(2, 6);
 let others = arrs.slice(-4);
 console.log(sliceElement); // Output: [3,6,7,9]
 console.log(others); // Output: [6, 7, 9, 0]
+
+// concat: Junta dois ou mais arrays e/ou itens e devolve o resultado (sem alterar nenhum dos arrays)
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const arr3 = [7, 8, 9];
+const combinedArray = arr1.concat(arr2, arr3);
+console.log(combinedArray); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+const nc = ["Neymar", "Coutinho", "Firmino"];
+const mvb = ["Mbappé", "Vini", "Bellingham"];
+const combined = nc.concat(mvb);
+console.log(combined); // Output: ["Neymar", "Coutinho", "Firmino", "Mbappé", "Vini", "Bellingham"]
