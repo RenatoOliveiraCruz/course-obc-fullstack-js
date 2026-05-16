@@ -1,27 +1,26 @@
 let fila;
 let pacientes = [];
+
 do {
-  fila = parseFloat(
+  fila = parseInt(
     prompt(
       "Bem vindo a fila do consultório, lista de espera:\n " +
-        pacientes +
-        "\n" +
-        "\nDigite uma opção para prosseguir: \n" +
+        pacientes.join("\n") +
+        "\n\nDigite uma opção para prosseguir: \n" +
         "1 - Novo paciente \n" +
         "2 - Consultar paciente \n" +
         "3 - Sair",
     ),
   );
+
   switch (fila) {
     case 1:
       let novoPaciente = prompt("Digite o nome do paciente:");
-      pacientes.push(novoPaciente + " ");
-      let i = 0;
-      while (i < pacientes.length) {
-        console.log(pacientes[i]);
-        i++;
+
+      for (let i = 0; i < pacientes.length; i++) {
+        pacientes.push(i + "º - " + novoPaciente);
       }
-      alert("Paciente adicionado à fila: " + i + "º - " + novoPaciente);
+      alert("Paciente adicionado à fila: " + "º - " + novoPaciente);
       break;
 
     case 2:
