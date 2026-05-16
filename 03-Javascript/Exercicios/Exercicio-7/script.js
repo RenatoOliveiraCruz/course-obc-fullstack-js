@@ -15,9 +15,15 @@ do {
   switch (fila) {
     case 1:
       let novoPaciente = prompt("Digite o nome do paciente:");
-      pacientes.push(novoPaciente + "\n");
-      alert("Paciente adicionado à fila: " + novoPaciente);
+      pacientes.push(novoPaciente + " ");
+      let i = 0;
+      while (i < pacientes.length) {
+        console.log(pacientes[i]);
+        i++;
+      }
+      alert("Paciente adicionado à fila: " + i + "º - " + novoPaciente);
       break;
+
     case 2:
       if (pacientes.length > 0) {
         let pacienteConsultado = pacientes.shift();
