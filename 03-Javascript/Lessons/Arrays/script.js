@@ -65,3 +65,9 @@ const nc = ["Neymar", "Coutinho", "Firmino"];
 const mvb = ["Mbappé", "Vini", "Bellingham"];
 const combined = nc.concat(mvb);
 console.log(combined); // Output: ["Neymar", "Coutinho", "Firmino", "Mbappé", "Vini", "Bellingham"]
+
+// splice: Permite remover elementos em qualquer posição do array e substituir por novos
+const arr4 = [1, 2, 3, 4, 5];
+const removedElements = arr4.splice(1, 2, "a", "b");
+console.log(arr4); // Output: [1, "a", "b", 5]
+console.log(removedElements); // Output: [2, 3]
