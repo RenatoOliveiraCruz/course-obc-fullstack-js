@@ -72,6 +72,7 @@ console.log(combined); // Output: ["Neymar", "Raphinha", "Richarlison", "Firmino
 console.log(removedElements); // Output: ["Coutinho", "Firmino"];
 
 ​// Usando o for para percorrer cada elemento do array
-for (let i = 0; i < combined.length; i++) {
-  console.log(combined[i]);
+for (let i = 0; i < arr.length; i++) {
+  const element = arr[i];
+  console.log(element + " SE ENCONTRA NA POSIÇÃO " + i + " DO ARRAY");
 }
