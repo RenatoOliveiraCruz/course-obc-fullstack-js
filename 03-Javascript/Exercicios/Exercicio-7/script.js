@@ -1,3 +1,4 @@
+// Fila de espera
 let fila;
 let pacientes = [];
 
@@ -45,3 +46,5 @@ do {
       alert("Opção inválida. Por favor, escolha uma opção válida.");
   }
 } while (fila !== 3);
+
+// Pilha de cartas
