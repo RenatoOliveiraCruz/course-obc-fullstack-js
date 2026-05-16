@@ -16,7 +16,7 @@ do {
     case 1:
       let novoPaciente = prompt("Digite o nome do paciente:");
       pacientes.push(novoPaciente);
-      alert("Paciente adicionado à fila: " + novoPaciente);
+      alert("Paciente adicionado à fila: " + novoPaciente + "\n");
       break;
     case 2:
       if (pacientes.length > 0) {
