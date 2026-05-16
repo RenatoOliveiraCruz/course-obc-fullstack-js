@@ -13,7 +13,7 @@ do {
     prompt(
       "Bem vindo a fila do consultório\n" +
         "Lista de espera:\n " +
-        listaPacientes +
+        (listaPacientes || "Nenhum paciente na fila\n") +
         "\n\nDigite uma opção para prosseguir: \n" +
         "1 - Novo paciente \n" +
         "2 - Consultar paciente \n" +
