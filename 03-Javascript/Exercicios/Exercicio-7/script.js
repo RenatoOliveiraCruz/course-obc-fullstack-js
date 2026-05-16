@@ -5,6 +5,7 @@ do {
     prompt(
       "Bem vindo a fila do consultório, lista de espera:\n " +
         pacientes +
+        "\n" +
         "\nDigite uma opção para prosseguir: \n" +
         "1 - Novo paciente \n" +
         "2 - Consultar paciente \n" +
