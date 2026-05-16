@@ -61,13 +61,17 @@ const arr3 = [7, 8, 9];
 const combinedArray = arr1.concat(arr2, arr3);
 console.log(combinedArray); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-const nc = ["Neymar", "Coutinho", "Firmino"];
+const ncf = ["Neymar", "Coutinho", "Firmino"];
 const mvb = ["Mbappé", "Vini", "Bellingham"];
 const combined = nc.concat(mvb);
 console.log(combined); // Output: ["Neymar", "Coutinho", "Firmino", "Mbappé", "Vini", "Bellingham"]
 
 // splice: Permite remover elementos em qualquer posição do array e substituir por novos
-const arr4 = [1, 2, 3, 4, 5];
-const removedElements = arr4.splice(1, 2, "a", "b");
-console.log(arr4); // Output: [1, "a", "b", 5]
-console.log(removedElements); // Output: [2, 3];
+const removedElements = combined.splice(1, 2, "Raphinha", "Richarlison");
+console.log(combined); // Output: ["Neymar", "Raphinha", "Richarlison", "Firmino", "Mbappé", "Vini", "Bellingham"]
+console.log(removedElements); // Output: ["Coutinho", "Firmino"];
+
+​// Usando o for para percorrer cada elemento do array
+for (let i = 0; i < combined.length; i++) {
+  console.log(combined[i]);
+}
